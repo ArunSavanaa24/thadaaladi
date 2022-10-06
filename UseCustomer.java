@@ -25,7 +25,9 @@ public class UseCustomer {
 		for(Customer id : c.values()) {
 			System.out.println(id);
 		}
-		*///****
+		
+		*/
+		//****
 		/*for(Long l : c.keySet()) {
 			System.out.println(c.get(l));
 		}*/
@@ -67,7 +69,7 @@ public class UseCustomer {
 		
 		
 		//********************************************
-		/*int min=c1.getAge();
+		int min=c1.getAge();
 		String name="";
 		for(Customer na : c.values()) {
 			if(na.getAge()>=min) {
@@ -76,7 +78,7 @@ public class UseCustomer {
 			}
 		}
 		System.out.println(min);
-		System.out.println(name);*/
+		System.out.println(name);
 		
 	 /*     c.values().forEach(x->{
 	    	  if(x.getName().equalsIgnoreCase("Arun")) {
@@ -105,7 +107,7 @@ public class UseCustomer {
 		c.forEach((x,y)->System.out.println(x+" "+y));
 		*/
 		
-		Iterator <Long>itr =  c.keySet().iterator();
+	/*	Iterator <Long>itr =  c.keySet().iterator();
 
 		while(itr.hasNext()) {
 			if(itr.next()==c3.getAadharNum()) {
@@ -113,7 +115,7 @@ public class UseCustomer {
 			}
 		}
 		c.forEach((x,y)->System.out.println(x+" "+y));
-	
+	*/
 		//*********************************************************
 		
 		
