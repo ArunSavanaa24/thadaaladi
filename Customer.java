@@ -44,9 +44,6 @@ public class Customer {
 		this.amountAva=amountAva;
 		this.aadharNum=aadharNum;
 		this.isMale=isMale;
-	}
-	public String toString() {
-		return name+" "+age+" "+amountAva+" "+aadharNum+" "+isMale;
 	}	
 }
 
